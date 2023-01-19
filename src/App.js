@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Cll from '..//src/Comporant/Com01'
+import Cal from './Comporant/Cal';
+import { useState } from 'react';
+import Lista from '../src/Comporant/List';
+import './App.css'
+import Radio from './Comporant/Radio';
+import UesRef from './Comporant/UesRef';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    
+
+            return (
+          <>
+            <Cll/>
+         
+          </>
+ );
 }
 
 export default App;
