@@ -1,16 +1,21 @@
-// import logo from './logo.svg';
-// import { useState } from 'react';
+
 import './App.css';
-import Tasks from './Components/Tasks';
+import Parent from './Tptodolist/Parent';
+import Form  from './Tptodolist/Form';
+import Item from './Tptodolist/Item';
+
 
 function App() {
 
   return (
-    <>
-<div className='todo-app' >
-    <Tasks />
-    </div>
-    </>
+   
+  <div className='todo-app' >
+        <Parent>
+          <Form/>
+          <Item/>
+        </Parent>
+  </div>
+   
       );
 }
 

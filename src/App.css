@@ -20,11 +20,6 @@ body {
   width: 520px;
   min-height: 600px;
   background: #161a2b;
-  background: linear-gradient(
-    90deg,
-    rgb(61, 141, 206) 0%,
-    #161a2b 100%
-  );
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -55,7 +50,7 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: #b3b1b1;
+  color: #e2e2e2;
 }
 
 .todo-button {
@@ -89,9 +84,8 @@ h1 {
   
   background: linear-gradient(
     90deg,
-    
-    rgb(133, 138, 143) 0%,
-    rgb(50, 70, 95) 100%
+    rgb(86, 97, 97) 0%,
+    rgb(37, 99, 179) 100%
     
   );
 
@@ -99,29 +93,16 @@ h1 {
   border-radius: 5px;
   width: 90%;
 }
-.todo-delet{
-  padding: 10px;
-  border: none;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-  outline: none;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
-  );
-  color: rgba(239, 245, 252, 0.89);
-  text-transform: capitalize;
-}
+
 .todo-tsck{
   
     padding: 8px 32px 8px 16px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px 4px 4px 4px;
     border: 2px solid rgba(255, 118, 20, 1);
     outline: none;
     width: 300px;
     background: transparent;
-    color: rgb(188, 196, 207);
+    color: #fff;
   
   
 }
@@ -131,18 +112,34 @@ h1 {
  
     width              : 32px;
     height             : 32px;
-    margin             : calc(0.9em - 11px) 0.25rem 0 0;
+    margin             : calc(0.8em - 11px) 0.25rem 0 0;
     vertical-align     : top;
-    border             : 2px solid rgb(23, 16, 85);
     margin-left: 10px;
-   
-  
    
     
 }
-#radio::before {
-  /* ...existing styles */
+.todo-delet{
+  
+  width              : 32px;
+  height             : 32px;
+  vertical-align     : top;
+  margin             : calc(0.8em - 11px) 0.25rem 0 0;
+}
 
-  transform-origin: bottom left;
-  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+.complete{
+  padding: 8px 32px 8px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgba(255, 118, 20, 1);
+  opacity: 0.6;
+  width: 300px;
+  text-decoration: line-through;
+  background: linear-gradient(
+    90deg,
+   
+    rgb(57, 56, 56) 0%,
+    rgb(27, 33, 51) 100%
+    
+  );
+  color: #fff;
+
 }
