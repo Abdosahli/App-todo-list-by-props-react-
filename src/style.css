@@ -1,0 +1,26 @@
+label{
+    padding: 20px;
+    font-size: large;
+}
+
+input{
+    border: 1.6px solid;
+    border-radius: 4px;
+    height: 25px;
+    margin: 5px 6px;
+    font-size: large;
+    width: auto;
+}
+
+#tache{
+    background-color:rgb(241, 167, 167)
+}
+
+input:hover{
+    background-color: rgb(167, 165, 165);
+}
+
+#radio{
+    scale: 150%;
+    margin: 5px 6px;
+}
